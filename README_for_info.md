@@ -7,8 +7,8 @@ sliit Y1S2 IWT group project files
 👍All the main pages like index, <b>DASHBOARD<b> , about, payment,...
   and the subpages like privacy policy,T&C,ref,..
   
-👍For database useracc.sql file includes all the tables+data
+👍For database <b>useracc.sql <b>file includes all the tables+data
 
-👍CRUD is also implemented except the validation parts.
+👍CRUD is also implemented <b>except<b> the validation parts.
 
-👍For references refer the references.html file.
+👍For references refer the<b> references.html<b> file.
