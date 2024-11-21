@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References</title>
+    <link rel="icon" href="Images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div id="header-placeholder"></div>
+  </header>
+  <div class="review-form-container"><p>
+    <h1 >References</h1>
+    <b>CRUD</b> Implimentation codes are mostly refered and implemented using the help of a <br>
+    youtube channel named : <a href="https://www.youtube.com/@mrdila4353/featured" target="_blank"><b>Mr. dila  https://www.youtube.com/@mrdila4353/featured</b></a></b><br>
+    //<a href="https://www.youtube.com/watch?v=D5X-BGD3z3Y&list=PLyprkB9NXq2ISuj7sBw4w7KbHcJUpOEsq" target="_blank"><b>playlist link: https://www.youtube.com/watch?v=D5X-BGD3z3Y&list=PLyprkB9NXq2ISuj7sBw4w7KbHcJUpOEsq</b></a><br><br>
+
+    styles and section structures, form contatiner designs are created with the references from sites like <b>Codepen</b>(refered not copied)<br>
+        //colors are taken by using color palettes from site named <b>coolers.co</b><br>
+        //color palette : <a href="https://www.coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff" target="_blank"><b>//coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff'</b></a><br>
+        //pricing section design in index.php is inspired by one of the Codepen codes of similar pricing section deisgn. Same with the testimonials section<br><br>
+
+    --extentions, apps used to create the project:<br><br>
+
+    <b>//visual studio code(Main coding environment)<br>
+    //visual studio code extentions: fontawesome, prettier, live server<br>
+    //xampp server<br>
+    //canva : for hero section image designs, Logo, Favicon<br><br>
+
+    //About us page images from freepik.com<br></b><br>
+
+    //Privacy policy , terms and condition page contents are generated using AI<br>
+    //Contents, testimonial reviews for sections in pages like <b>About us</b> are generated using AI
+  </p>
+</div>
+
+
+<footer>
+  <div id="footer-placeholder"></div>
+</footer>
+
+<script>
+  // to include the footer
+  fetch('footer.php')
+      .then(response => response.text())
+      .then(data => {
+          document.getElementById('footer-placeholder').innerHTML = data;
+      });
+
+  // to include the header   
+  fetch('header.php')
+      .then(response => response.text())
+      .then(data => {
+          document.getElementById('header-placeholder').innerHTML = data;
+      });   
+</script>
+</body>
+</html>
+
+

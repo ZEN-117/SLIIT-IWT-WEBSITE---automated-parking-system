@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Privacy Policy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        
+        .privacy-policy-container {
+            background-color: #fff; 
+            padding: 20px; 
+            margin: 20px auto; 
+            max-width: 1200px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header-placeholder"></div>
+    </header>
+
+    <div class="privacy-policy-container">
+        <h1>Privacy Policy</h1>
+        <p>Welcome to <strong>AutoParkX</strong>! We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our automated parking system services. By using our website and services, you agree to the terms of this policy.</p>
+
+        <h2>Information We Collect</h2>
+        <p>When you use <strong>AutoParkX</strong>, we may collect the following types of information:</p>
+        <ul>
+            <li><strong>Personal Information</strong>: Data such as your name, email address, phone number, payment information, and vehicle details provided during sign-up.</li>
+            <li><strong>Usage Information</strong>: Information on how you interact with our services, such as visited pages, features used, and activity timestamps.</li>
+            <li><strong>Location Data</strong>: Geolocation data collected to provide real-time parking availability.</li>
+            <li><strong>Payment Information</strong>: Payment details used for secure transaction processing.</li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+        <p>We use the collected information for the following purposes:</p>
+        <ul>
+            <li><strong>Service Delivery</strong>: Providing, maintaining, and improving our automated parking services, including parking reservations, real-time availability, and payment processing.</li>
+            <li><strong>User Support</strong>: Responding to inquiries, troubleshooting issues, and providing customer support.</li>
+            <li><strong>Personalization</strong>: Tailoring our services based on your preferences and past reservations.</li>
+            <li><strong>Security and Fraud Prevention</strong>: Protecting accounts and our services from unauthorized access, fraud, and other threats.</li>
+            <li><strong>Communication</strong>: Sending service updates, reminders, promotional materials, and important notices about your account.</li>
+        </ul>
+
+        <h2>How We Share Your Information</h2>
+        <p>We do not sell or rent your personal information to third parties. However, we may share your data in the following instances:</p>
+        <ul>
+            <li><strong>With Service Providers</strong>: Trusted third-party vendors who assist us in delivering our services (e.g., payment processors, customer support).</li>
+            <li><strong>Legal Requirements</strong>: Disclosure of information as required by law or in response to legal requests.</li>
+            <li><strong>Business Transfers</strong>: Data transfers in the event of a merger, acquisition, or asset sale.</li>
+        </ul>
+
+        <h2>Data Security</h2>
+        <p>We implement strong security measures, including encryption, secure payment processing, and regular security assessments, to protect your personal information.</p>
+
+        <h2>Cookies and Tracking Technologies</h2>
+        <p><strong>AutoParkX</strong> uses cookies and similar technologies to enhance your experience. Cookies help remember preferences, track usage, and improve the website. You can manage cookies via your browser settings.</p>
+
+        <h2>Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li><strong>Access</strong>: Request access to your personal information.</li>
+            <li><strong>Update</strong>: Correct or update your data.</li>
+            <li><strong>Delete</strong>: Request deletion of your account and data, subject to legal requirements.</li>
+            <li><strong>Opt-out</strong>: Unsubscribe from marketing communications.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <div id="footer-placeholder"></div>
+    </footer>
+
+    <script>
+        // to include the footer
+        fetch('footer.php')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+
+        // to include the header   
+        fetch('header.php')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            });   
+    </script>
+</body>
+</html>
